@@ -1,6 +1,6 @@
 /*Importa os arquivos bases do site*/
-@import url('./base/global.css');
 @import url("./base/reset.css");
+@import url('./base/global.css');
 
 /*Importa os componentes reutilizáveis*/
 @import url('./components/header.css');
