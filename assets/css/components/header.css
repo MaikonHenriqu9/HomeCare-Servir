@@ -1,8 +1,14 @@
 .cabecalho {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 20px 0.8rem;
+    background-color: var(--cor-fundo);
 }
 
 .cabecalho__container {
@@ -11,7 +17,6 @@
     flex-direction: row-reverse;
     justify-content: flex-end;
     align-items: center;
-    background-color: var(--cor-fundo);
 }
 
 .logo {
@@ -53,7 +58,7 @@
 
 /*Animação para abrir o menu*/
 .menu-mobile.abrir-menu {
-    width: 50%;
+    width: 40%;
 }
 
 .menu-mobile .btn-fechar-menu {
