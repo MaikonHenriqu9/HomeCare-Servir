@@ -30,8 +30,9 @@ a {
 }
 
 p {
-    font-family: "Opens Sans", sans-serif;
-    font-weight: 100;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: clamp(1rem, 3vw, 1.563rem);
 }
 
 .titulo-destaque {
@@ -41,9 +42,18 @@ p {
 
 .titulo {
     color: var(--cor-titulo-primario);
+    font-size: clamp(1.25rem, 3vw, 2.5rem);
 }
 
 .titulo-secundario {
     color: var(--cor-titulo-secundario);
     font-size: clamp(1.25rem, 3vw, 2.5rem);
+}
+
+.descricao-primario {
+    color: var(--cor-texto-primario);
+}
+
+.descricao-secundario {
+    color: var(--cor-texto-secundario);
 }
