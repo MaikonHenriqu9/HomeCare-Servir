@@ -1,7 +1,7 @@
 .botao {
     background-color: var(--cor-botao);
     color: var(--cor-texto-secundario);
-    font-size: clamp(1rem, 3vw, 2rem);
+    font-size: clamp(1rem, 2vw, 1.8rem);
     font-weight: bold;
     padding: 1rem;
     border-radius: 5px;
