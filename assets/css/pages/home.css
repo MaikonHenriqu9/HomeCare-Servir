@@ -1,4 +1,4 @@
-/*Tela Inicial da HomeCare*/
+/*Seção Tela Inicial da HomeCare*/
 .tela-inicial {
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.9), transparent), url('../../images/photos/image_hero.png');
   background-repeat: no-repeat;
@@ -22,9 +22,9 @@
   font-weight: 100;
 }
 
-.tela-inicial__botao {
+/* .tela-inicial__botao {
     max-width: fit-content;
-}
+} */
 
 /*Frase Destaque do Site*/
 .frase-destaque {
@@ -32,20 +32,51 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 2rem;
+  padding: 4rem 2rem;
 }
 
 .frase-destaque__titulo {
   font-style: italic;
 }
 
+/*Seção sobre HomeCare Servir*/
+.sobre-homecare {
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sobre-homecare__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sobre-homecare__imagem {
+  max-width: 100%;
+}
+
+.sobre-homecare__imagem img {
+  width: 100%;
+}
+
+.sobre-homecare__conteudo {
+  padding: 1.5%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+/*Resumo Serviços da HomeCare Servir*/
 
 
 @media (max-width: 479px) {
   .tela-inicial {
     background-position: 70% 20%;
     padding: 1rem;
-    height: 40vh;
+    height: 55vh;
     align-items: center;
     justify-content: center;
   }
@@ -78,11 +109,19 @@
   .tela-inicial {
     height: 50vh;
     background-position: 80% 10%;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
   }
 
-  
+  .sobre-homecare__imagem {
+    max-width: 60vw;
+  }
+
+  .sobre-homecare__container .botao {
+    width: 100%;
+
+  }
+
 }
 
 /* Tablet grande ou notebook pequeno: 979px até 1199px */
@@ -99,9 +138,37 @@
     align-items: flex-start;
     gap: 1.7rem;
   }
+
+  .sobre-homecare__container {
+    width: 90%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+  }
+
+  .sobre-homecare__imagem {
+    max-width: 40%;
+  }
+
+  .sobre-homecare__conteudo {
+    width: 60%;
+  }
+
 }
 
 /* Desktop: 1200px ou mais */
 @media (min-width: 1200px) {
   /* Ajustes para telas grandes */
+  .tela-inicial {
+    background-position: 90% -10%;
+  }
+
+  .sobre-homecare__imagem {
+    max-width: 60%;
+  }
+
+  .sobre-homecare__conteudo {
+    width: 40%;
+  }
 }
