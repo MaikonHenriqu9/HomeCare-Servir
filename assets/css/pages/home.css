@@ -70,7 +70,49 @@
 }
 
 /*Resumo Serviços da HomeCare Servir*/
+.servicos-homecare {
+  position: relative;
+  background-image: linear-gradient(rgba(220, 220, 220, 0.4), rgba(220, 220, 220, 0.4)), url("../../images/backgrounds/wall--4-light-1920x1080.png");
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+.servicos-homecare__container {
+  /* width: 100%;
+  padding: 1%;
+  gap: 3vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+  width: 100%;
+  padding: 1rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  align-items: center;
+}
+
+.servicos-homecare__container .titulo {
+  text-align: center;
+}
+
+.servicos__container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  width: 100%;
+  justify-items: center;
+}
+
+.wave {
+  position: absolute;
+  width: 100%;
+  bottom: -100px;
+}
 
 @media (max-width: 479px) {
   .tela-inicial {
@@ -79,6 +121,7 @@
     height: 55vh;
     align-items: center;
     justify-content: center;
+    text-align: center;
   }
   
   .tela-inicial__container {
@@ -95,6 +138,7 @@
     height: 40vh;
     background-position: 80% 10%;
     justify-content: center;
+    text-align: center;
   }
 
   .tela-inicial__container {
@@ -102,6 +146,11 @@
     align-items: center;
     gap: 1.3rem;
   }
+
+  .servicos__container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
 }
 
 /* Tablet: 767px até 978px */
@@ -111,6 +160,7 @@
     background-position: 80% 10%;
     padding-top: 10rem;
     padding-bottom: 10rem;
+    text-align: unset;
   }
 
   .sobre-homecare__imagem {
@@ -120,6 +170,11 @@
   .sobre-homecare__container .botao {
     width: 100%;
 
+  }
+
+  .servicos-homecare__container {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
   }
 
 }
@@ -155,6 +210,10 @@
     width: 60%;
   }
 
+  .servicos__container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
 }
 
 /* Desktop: 1200px ou mais */
@@ -171,4 +230,16 @@
   .sobre-homecare__conteudo {
     width: 40%;
   }
+
+  
+
+  .servicos-homecare__container {
+    max-width: 80%;
+    gap: 10vh;
+  }
+
+  .servicos__container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
 }

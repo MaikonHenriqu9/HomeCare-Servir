@@ -6,6 +6,7 @@
 @import url('./components/header.css');
 @import url('./components/footer.css');
 @import url('./components/botao.css');
+@import url('./components/servico-destaque.css');
 
 /*Importa os estilos das páginas*/
 @import url('./pages/home.css');
