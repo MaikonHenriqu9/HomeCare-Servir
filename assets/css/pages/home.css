@@ -166,10 +166,11 @@
 /* Mobile médio: 480px até 766px */
 @media (min-width: 480px) {
   .tela-inicial {
-    height: 40vh;
+    /* height: 40vh; */
     background-position: 80% 10%;
     justify-content: center;
     text-align: center;
+    padding: 2%;
   }
 
   .tela-inicial__container {
