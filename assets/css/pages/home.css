@@ -189,8 +189,9 @@
   .tela-inicial {
     height: 50vh;
     background-position: 80% 10%;
-    padding-top: 10rem;
-    padding-bottom: 10rem;
+    padding: 10rem 2rem;
+    /* padding-top: 10rem;
+    padding-bottom: 10rem; */
     text-align: unset;
   }
 
@@ -221,7 +222,7 @@
   .equipe-homecare__imagem {
     display: block;
     width: 300px;
-    height: 500px;
+    height: 300px;
   }
 
   .equipe-homecare__imagem img {
