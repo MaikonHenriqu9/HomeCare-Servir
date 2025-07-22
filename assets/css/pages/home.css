@@ -140,11 +140,41 @@
 
 .wave {
   position: absolute;
-  bottom: -10px;
+  top: -15px;
   left: 0;
   width: 100%;
   pointer-events: none;
 }
+
+/*Seção sobre Benefícios da HomeCare Servir*/
+.beneficios-homecare {
+  position: relative;
+  background-color: var(--cor-primaria);
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.beneficios-homecare__container {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  text-align: center;
+}
+
+.beneficios {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 0.5rem;
+}
+
 
 @media (max-width: 479px) {
   .tela-inicial {
@@ -166,7 +196,7 @@
 /* Mobile médio: 480px até 766px */
 @media (min-width: 480px) {
   .tela-inicial {
-    /* height: 40vh; */
+    height: 40vh;
     background-position: 80% 10%;
     justify-content: center;
     text-align: center;
@@ -181,6 +211,10 @@
 
   .servicos__container {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .beneficios-homecare {
+    top: 50px;
   }
 
 }
@@ -232,9 +266,6 @@
     object-fit: cover;
   }
 
-  .wave {
-    bottom: -90px;
-  }
 }
 
 /* Tablet grande ou notebook pequeno: 979px até 1199px */
@@ -319,7 +350,7 @@
 
   .servicos-homecare__container {
     max-width: 80%;
-    gap: 10vh;
+    gap: 5rem;
   }
 
   .servicos__container {
@@ -348,6 +379,21 @@
     object-fit: cover;
   }
 
+  .wave {
+    top: -65px;
+  }
+
+  .beneficios-homecare {
+    top: 70px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .beneficios-homecare__container {
+    max-width: 80%;
+    gap: 4rem;
+  }
+
 }
 
 /*Ultrawide: 1921px*/
@@ -359,7 +405,7 @@
   .equipe-homecare__imagem {
     display: block;
     width: 494px;
-    height: 596px;
+    height: 494px;
   }
 
   .equipe-homecare__imagem img {
@@ -367,4 +413,18 @@
     height: 100%;
     object-fit: cover;
   }
+
+  .wave {
+    top: -140px;
+  }
+
+  .beneficios-homecare {
+    top: 70px;
+  }
+
+  .beneficios-homecare__container {
+    max-width: 70%;
+    gap: 4rem;
+  }
+
 }
