@@ -32,7 +32,7 @@ a {
 p {
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
-    font-size: clamp(1rem, 3vw, 1.563rem);
+    font-size: clamp(1rem, 2vw, 1.563rem);
     line-height: 1.2;
 }
 
