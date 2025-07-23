@@ -463,10 +463,16 @@
 
   .cta-imagem {
     display: block;
+    max-width: 70%;
+  }
+
+  .cta-imagem img {
+    width: 100%;
+    object-fit: contain;
   }
 
   .cta-informacoes .botao {
-    max-width: 55%;
+    max-width: 60%;
   }
 
 }
@@ -511,12 +517,21 @@
     justify-content: space-around;
   }
 
+  .cta-imagem {
+    max-width: 80%;
+  }
+
+  .cta-imagem img {
+    width: 100%;
+    object-fit: cover;
+  }
+
   .cta-informacoes {
     max-width: 40%;
   }
 
   .cta-informacoes .botao {
-    max-width: 50%;
+    max-width: 55%;
   }
 
 }
