@@ -6,7 +6,6 @@
   display: flex;
   padding: 1rem;
   margin-top: 5.2rem;
-  display: flex;
 }
 
 .tela-inicial__container {
@@ -21,10 +20,6 @@
   font-size: clamp(1.02rem, 3vw, 2.25rem);
   font-weight: 100;
 }
-
-/* .tela-inicial__botao {
-    max-width: fit-content;
-} */
 
 /*Frase Destaque do Site*/
 .frase-destaque {
@@ -79,13 +74,6 @@
 }
 
 .servicos-homecare__container {
-  /* width: 100%;
-  padding: 1%;
-  gap: 3vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; */
   width: 100%;
   padding: 1rem;
   margin: 0 auto;
@@ -270,8 +258,6 @@
     height: 50vh;
     background-position: 80% 10%;
     padding: 10rem 2rem;
-    /* padding-top: 10rem;
-    padding-bottom: 10rem; */
     text-align: unset;
   }
 
