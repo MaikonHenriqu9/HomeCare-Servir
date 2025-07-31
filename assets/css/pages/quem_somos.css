@@ -1,6 +1,6 @@
+/*Seção Inicial do site*/
 .apresentacao {
   background-color: var(--cor-fundo);
-  margin-top: 5.2rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -16,36 +16,144 @@
     gap: 1rem;
 }
 
+/*Seção sobre a história da empresa*/
+.sobre-nos {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--cor-primaria);
+}
+
+.wave,
+.wave-reverse {
+    /* position: absolute; */
+    position: relative;
+    width: 100%;
+    left: 0;
+}
+
+.wave img {
+    width: 100%;
+}
+
+.wave-reverse {
+    transform: scaleY(-1);
+    bottom: -11rem;
+}
+
+.sobre-nos__container {
+    position: relative;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.nossa-historia {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.logo-homecare-servir {
+    display: none;
+    /* max-width: 70%;
+    height: auto;*/
+    object-fit: cover;
+}
+
+.logo-homecare-servir img {
+    width: 100%;
+}
+
 @media (max-width: 479px){
+    .apresentacao {
+        margin: 5rem 0 2rem;
+    }
+
     .apresentacao__container {
         width: 90%;
         margin-top: 1rem;
         padding: 2rem 0;
     }
+
+    .sobre-nos__container {
+        max-width: 90%;
+        gap: 2rem;
+    }
+
+    .wave-reverse {
+        bottom: -1rem;
+    }
+
 }
 
 /* Mobile médio: 480px até 766px */
 @media (min-width: 480px) {
+    .apresentacao {
+        margin: 5rem 0 2rem;
+    }
+
     .apresentacao__container {
         width: 90%;
         margin-top: 1rem;
         padding: 2rem 0;
     }
+
+    .sobre-nos__container {
+        max-width: 90%;
+    }
+
+    .wave-reverse {
+        bottom: -1rem;
+    }
+
 }
 
 /* Tablet: 767px até 978px */
 @media (min-width: 767px){
+    .apresentacao {
+        margin: 5rem;
+    }
+
     .apresentacao__container {
         width: 80%;
         margin-top: 1rem;
         padding: 2rem 0;
     }
+
+    .sobre-nos__container {
+        max-width: 80%;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .nossa-historia {
+        max-width: 60%;
+    }
+
+    .wave-reverse {
+        bottom: -7rem;
+    }
+
+    .logo-homecare-servir {
+        display: block;
+        max-width: 30%;
+    }
+
+    .wave-reverse {
+        bottom: -3rem;
+    }
+
 }
 
 /* Tablet grande ou notebook pequeno: 979px até 1199px */
 @media (min-width: 979px){
     .apresentacao {
-        margin-top: 6.5rem;
+        margin: 6.5rem;
     }
 
     .apresentacao__container {
@@ -53,10 +161,20 @@
         margin-top: 2rem;
         padding: 3rem 0;
     }
+
+    .sobre-nos__container {
+        max-width: 75%;
+        flex-direction: row;
+    }
+
 }
 
 /* Desktop: 1200px ou mais */
 @media (min-width: 1200px){
+    .apresentacao {
+      margin: 10rem;  
+    }
+
     .apresentacao__container {
         max-width: 80%;
         margin-top: 5rem 0;
@@ -70,9 +188,6 @@
 
 /*Ultrawide: 1921px*/
 @media (min-width: 1921px){
-    .apresentacao {
-        margin-top: 6rem;
-    }
 
     .apresentacao__container {
         max-width: 80%;
