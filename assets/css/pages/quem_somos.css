@@ -202,4 +202,8 @@
     .apresentacao__container .descricao-primario {
         max-width: 30%;
     }
+
+    .wave-reverse {
+        bottom: -7rem;
+    }
 }
