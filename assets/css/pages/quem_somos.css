@@ -71,7 +71,7 @@
 
 @media (max-width: 479px){
     .apresentacao {
-        margin: 5rem 0 2rem;
+        margin: 5rem 0;
     }
 
     .apresentacao__container {
@@ -94,7 +94,7 @@
 /* Mobile médio: 480px até 766px */
 @media (min-width: 480px) {
     .apresentacao {
-        margin: 5rem 0 2rem;
+        margin: 5rem 0;
     }
 
     .apresentacao__container {
@@ -183,6 +183,10 @@
 
     .apresentacao__container .descricao-primario {
         max-width: 55%;
+    }
+
+    .wave-reverse {
+        bottom: -4rem;
     }
 }
 
