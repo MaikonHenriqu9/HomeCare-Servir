@@ -60,13 +60,31 @@
 
 .logo-homecare-servir {
     display: none;
-    /* max-width: 70%;
-    height: auto;*/
     object-fit: cover;
 }
 
 .logo-homecare-servir img {
     width: 100%;
+}
+
+/*Seção Nossa Causa*/
+.nossa-causa {
+    position: relative;
+    top: 6rem;
+    background-color: var(--cor-fundo);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.nossa-causa__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 2rem;
 }
 
 @media (max-width: 479px){
@@ -89,6 +107,14 @@
         bottom: -1rem;
     }
 
+    .nossa-causa {
+        top: 1.2rem;
+    }
+
+    .nossa-causa__container {
+        width: 90%;
+        margin: 2rem 0;
+    }
 }
 
 /* Mobile médio: 480px até 766px */
@@ -111,6 +137,14 @@
         bottom: -1rem;
     }
 
+    .nossa-causa {
+        top: 1.2rem;
+    }
+
+    .nossa-causa__container {
+        width: 90%;
+        margin: 2rem 0;
+    }
 }
 
 /* Tablet: 767px até 978px */
@@ -144,10 +178,17 @@
         max-width: 30%;
     }
 
+    .wave {
+        top: -3rem;
+    }
+
     .wave-reverse {
         bottom: -3rem;
     }
 
+    .nossa-causa {
+        top: 3.1rem;
+    }
 }
 
 /* Tablet grande ou notebook pequeno: 979px até 1199px */
@@ -167,6 +208,13 @@
         flex-direction: row;
     }
 
+    .wave {
+        top: -2rem;
+    }
+
+    .nossa-causa {
+        top: 4.1rem;
+    }
 }
 
 /* Desktop: 1200px ou mais */
@@ -185,8 +233,16 @@
         max-width: 55%;
     }
 
+    .wave {
+        top: -4rem;
+    }
+
     .wave-reverse {
         bottom: -4rem;
+    }
+
+    .nossa-causa {
+        top: 4.3rem;
     }
 }
 
@@ -203,7 +259,15 @@
         max-width: 30%;
     }
 
+    .wave {
+        top: -6rem;
+    }
+
     .wave-reverse {
         bottom: -7rem;
+    }
+
+    .nossa-causa {
+        top: 8rem;
     }
 }
