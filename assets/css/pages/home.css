@@ -126,26 +126,31 @@
   box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
 }
 
-.wave {
-  position: absolute;
-  top: -15px;
-  left: 0;
-  width: 100%;
-  pointer-events: none;
-}
 
 /*Seção sobre Benefícios da HomeCare Servir*/
 .beneficios-homecare {
   position: relative;
   background-color: var(--cor-primaria);
-  padding: 2rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
+.wave-beneficios {
+  position: relative;
+  width: 100%;
+  height: auto;
+  left: 0;
+}
+
+.wave-beneficios img {
+  width: 100%;
+  height: auto;
+}
+
 .beneficios-homecare__container {
+  position: relative;
   max-width: 100%;
   display: flex;
   flex-direction: column;
@@ -208,6 +213,10 @@
     gap: 1.3rem;
   }
 
+  .wave-beneficios {
+    top: -1.1rem;
+  } 
+
   .cta-informacoes .titulo {
     text-align: center;
   }
@@ -241,6 +250,10 @@
   .beneficios-homecare {
     top: 50px;
   }
+
+  .wave-beneficios {
+    top: -1.2rem;
+  } 
 
   .beneficios-homecare__container {
     padding: 1rem;
@@ -296,6 +309,10 @@
     height: 100%;
     object-fit: cover;
   }
+
+  .wave-beneficios {
+    top: -2rem;
+  } 
 
   .cta-homepage {
     top: 3.3rem;
@@ -366,6 +383,10 @@
     object-fit: cover;
   }
 
+  .wave-beneficios {
+    top: -3rem;
+  } 
+
   .cta-homepage {
     top: 3.5rem;
   }
@@ -418,8 +439,8 @@
     object-fit: cover;
   }
 
-  .wave {
-    top: -65px;
+  .wave-beneficios {
+    top: -3.3rem;
   }
 
   .beneficios-homecare {
@@ -431,6 +452,8 @@
   .beneficios-homecare__container {
     max-width: 80%;
     gap: 4rem;
+    margin-bottom: 2rem;
+    padding: 2rem;
   }
 
   .cta-homepage {
@@ -485,8 +508,8 @@
     object-fit: cover;
   }
 
-  .wave {
-    top: -8.313rem;
+  .wave-beneficios {
+    top: -6rem;
   }
 
   .beneficios-homecare {
