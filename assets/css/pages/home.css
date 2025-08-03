@@ -200,7 +200,7 @@
   .tela-inicial {
     background-position: 70% 20%;
     padding: 0.5rem;
-    /* height: 55vh; */
+    height: 55vh;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -267,7 +267,7 @@
 /* Tablet: 767px até 978px */
 @media (min-width: 767px) {
   .tela-inicial {
-    height: 60vh;
+    /* height: 60vh; */
     background-position: 80% 10%;
     padding: 15rem 2rem;
     text-align: unset;
