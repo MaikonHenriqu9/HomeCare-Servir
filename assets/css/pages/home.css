@@ -219,6 +219,10 @@
     top: -1.1rem;
   } 
 
+  .beneficios {
+    margin-bottom: 2rem;
+  }
+
   .cta-informacoes .titulo {
     text-align: center;
   }
@@ -251,10 +255,6 @@
 
   .sobre-homecare__imagem {
     max-width: 35vw;
-  }
-
-  .beneficios-homecare {
-    top: 50px;
   }
 
   .wave-beneficios {
