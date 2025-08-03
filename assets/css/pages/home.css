@@ -200,7 +200,7 @@
   .tela-inicial {
     background-position: 70% 20%;
     padding: 0.5rem;
-    height: 55vh;
+    /* height: 55vh; */
     align-items: center;
     justify-content: center;
     text-align: center;
