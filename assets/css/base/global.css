@@ -26,6 +26,7 @@ body {
 h1, h2 {
     font-family: "Poppins", sans-serif;
     font-weight: bold;
+    line-height: 1.2;
 }
 
 a {
@@ -47,12 +48,12 @@ p {
 
 .titulo {
     color: var(--cor-titulo-primario);
-    font-size: clamp(1.25rem, 3vw, 2.5rem);
+    font-size: clamp(1.25rem, 2.5vw, 2.5rem);
 }
 
 .titulo-secundario {
     color: var(--cor-titulo-secundario);
-    font-size: clamp(1.25rem, 3vw, 2.5rem);
+    font-size: clamp(1.25rem, 2.5vw, 2.5rem);
 }
 
 .descricao-primario {
