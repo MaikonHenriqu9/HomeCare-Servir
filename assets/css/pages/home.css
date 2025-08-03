@@ -267,14 +267,10 @@
 /* Tablet: 767px até 978px */
 @media (min-width: 767px) {
   .tela-inicial {
-    min-height: 70vh;
+    height: 70vh;
     background-position: 80% 10%;
     padding: 10rem 2rem;
     text-align: unset;
-  }
-
-  .tela-inicial__container {
-    padding: 5rem 0;
   }
 
   .sobre-homecare__imagem {
@@ -550,4 +546,11 @@
     max-width: 55%;
   }
 
+}
+
+@media (max-height: 500px) and (orientation: landscape) {
+  .tela-inicial {
+    min-height: 90vh;
+    height: auto;
+  }
 }
