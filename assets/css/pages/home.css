@@ -268,7 +268,9 @@
   .cta-homepage {
     top: 3.1rem;
   }
-
+  .cta-homepage__container {
+    max-width: 80%;
+  }
 }
 
 /* Tablet: 767px até 978px */
