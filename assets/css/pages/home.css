@@ -269,8 +269,12 @@
   .tela-inicial {
     min-height: 70vh;
     background-position: 80% 10%;
-    padding: 14rem 2rem;
+    padding: 10rem 2rem;
     text-align: unset;
+  }
+
+  .tela-inicial__container {
+    padding: 5rem 0;
   }
 
   .sobre-homecare__imagem {
