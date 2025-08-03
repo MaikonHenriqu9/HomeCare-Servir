@@ -267,7 +267,7 @@
 /* Tablet: 767px até 978px */
 @media (min-width: 767px) {
   .tela-inicial {
-    height: 70vh;
+    height: 60vh;
     background-position: 80% 10%;
     padding: 10rem 2rem;
     text-align: unset;
