@@ -273,6 +273,10 @@
     text-align: unset;
   }
 
+  .sobre-homecare__container {
+    max-width: 80%;
+  }
+
   .sobre-homecare__imagem {
     max-width: 40vw;
   }
@@ -334,11 +338,11 @@
   }
 
   .sobre-homecare__container {
-    width: 90%;
+    width: 80%;
     flex-direction: row;
-    justify-content: center;
     align-items: center;
-    gap: 5%;
+    justify-content: space-around;
+    gap: 3%;
   }
 
   .sobre-homecare__imagem {
@@ -346,7 +350,11 @@
   }
 
   .sobre-homecare__conteudo {
-    width: 60%;
+    width: 100%;
+  }
+
+  .descricao-primario {
+        max-width: 85%;
   }
 
   .servicos__container {
@@ -403,7 +411,7 @@
   }
 
   .sobre-homecare__conteudo {
-    width: 40%;
+    width: 60%;
   }
 
   .servicos-homecare__container {
@@ -490,6 +498,10 @@
 
 /*Ultrawide: 1921px*/
 @media (min-width: 1921px) {
+  .sobre-homecare__conteudo {
+    width: 55%;
+  }
+
   .equipe-homecare {
     padding: 5rem;
   }
