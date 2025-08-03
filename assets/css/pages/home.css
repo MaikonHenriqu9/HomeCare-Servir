@@ -274,12 +274,11 @@
   }
 
   .sobre-homecare__imagem {
-    max-width: 60vw;
+    max-width: 40vw;
   }
 
   .sobre-homecare__container .botao {
     width: 100%;
-
   }
 
   .servicos-homecare__container {
@@ -400,7 +399,7 @@
   }
 
   .sobre-homecare__imagem {
-    max-width: 60%;
+    max-width: 40%;
   }
 
   .sobre-homecare__conteudo {
