@@ -246,6 +246,10 @@
     grid-template-columns: repeat(2, 1fr);
   }
 
+  .sobre-homecare__imagem {
+    max-width: 30vw;
+  }
+
   .beneficios-homecare {
     top: 50px;
   }
@@ -269,7 +273,7 @@
   .tela-inicial {
     height: 60vh;
     background-position: 80% 10%;
-    padding: 10rem 2rem;
+    padding: 5rem 2rem;
     text-align: unset;
   }
 
@@ -561,7 +565,7 @@
 
 @media (max-height: 500px) and (orientation: landscape) {
   .tela-inicial {
-    min-height: 90vh;
+    min-height: 70vh;
     height: auto;
   }
 }
