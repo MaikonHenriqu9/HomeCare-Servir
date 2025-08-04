@@ -178,11 +178,11 @@
     }
 
     .wave {
-        top: -7.2rem;
+        top: -7.4rem;
     }
 
     .wave-reverse {
-        bottom: -7.2rem;
+        bottom: -7.4rem;
     }
 
     .logo-homecare-servir {
@@ -242,7 +242,7 @@
     }
 
     .apresentacao__container .descricao-primario {
-        max-width: 55%;
+        max-width: 70%;
     }
 
     .wave {
@@ -267,7 +267,7 @@
     }
 
     .apresentacao__container .descricao-primario {
-        max-width: 30%;
+        max-width: 40%;
     }
 
     .wave {
