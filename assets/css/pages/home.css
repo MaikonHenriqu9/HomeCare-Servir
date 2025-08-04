@@ -107,6 +107,8 @@
   background-color: var(--cor-fundo);
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
   padding: 2rem;
 }
 
@@ -288,7 +290,7 @@
 /* Tablet: 767px até 978px */
 @media (min-width: 767px) {
   .tela-inicial {
-    height: 60vh;
+    height: 45vh;
     background-position: 80% 10%;
     padding: 5rem 2rem;
     text-align: unset;
@@ -317,9 +319,11 @@
   }
 
   .equipe-homecare__container {
+    max-width: 80%;
     flex-direction: row;
     align-items: flex-start;
     justify-content: space-between;
+    margin-bottom: 2rem;
   }
 
   .equipe-homecare__informacao {
@@ -328,8 +332,8 @@
 
   .equipe-homecare__imagem {
     display: block;
-    width: 300px;
-    height: 300px;
+    width: 270px;
+    height: 270px;
   }
 
   .equipe-homecare__imagem img {
@@ -356,7 +360,7 @@
 @media (min-width: 979px) {
   .tela-inicial {
     width: auto;
-    height: 77vh;
+    height: 70vh;
     justify-content: flex-start;
     align-items: center;
     justify-content: center;
@@ -536,12 +540,24 @@
     width: 55%;
   }
 
+  .sobre-homecare__conteudo .botao {
+    max-width: 82%;
+  }
+
   .servicos-homecare__container {
     max-width: 75%;
   }
 
   .equipe-homecare {
     padding: 5rem;
+  }
+
+  .equipe-homecare__container {
+    max-width: 60%;
+  }
+
+  .equipe-homecare__informacao {
+    max-width: 65%;
   }
 
   .equipe-homecare__imagem {
@@ -554,10 +570,6 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-  }
-
-  .sobre-homecare__conteudo .botao {
-    max-width: 82%;
   }
 
   .wave-beneficios {
