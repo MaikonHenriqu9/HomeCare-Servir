@@ -63,10 +63,10 @@
   gap: 2rem;
 }
 
-/*Resumo Serviços da HomeCare Servir*/
+/*Seção sobre Serviços da HomeCare Servir*/
 .servicos-homecare {
   background-image: linear-gradient(rgba(220, 220, 220, 0.4), rgba(220, 220, 220, 0.4)), url("../../images/backgrounds/wall--4-light-1920x1080.png");
-  padding: 2rem;
+  padding: 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -78,7 +78,7 @@
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  gap: 3rem;
+  gap: 2rem;
   align-items: center;
 }
 
@@ -89,10 +89,17 @@
 .servicos__container {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 2rem;
+  gap: 1rem;
   width: 100%;
+  align-items: flex-start;
   justify-items: center;
 }
+
+.servico-imagem img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
 
 /*Seção sobre a Equipe HomeCare Servir*/
 .equipe-homecare {
@@ -198,7 +205,6 @@
   gap: 2rem;
 }
 
-
 @media (max-width: 479px) {
   .tela-inicial {
     background-position: 70% 20%;
@@ -250,7 +256,13 @@
   }
 
   .servicos__container {
+    max-width: 80%;
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .servico-imagem {
+    width: 8.75rem;
+    height: 8.75rem;
   }
 
   .sobre-homecare__imagem {
@@ -297,6 +309,11 @@
   .servicos-homecare__container {
     grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
+  }
+
+  .servico-imagem {
+    width: 12.5rem;
+    height: auto;
   }
 
   .equipe-homecare__container {
@@ -367,7 +384,7 @@
   }
 
   .descricao-primario {
-        max-width: 85%;
+    max-width: 85%;
   }
 
   .servicos__container {
@@ -430,6 +447,10 @@
   .servicos-homecare__container {
     max-width: 80%;
     gap: 5rem;
+  }
+
+  .sobre-homecare__conteudo .botao {
+    max-width: 85%;
   }
 
   .servicos__container {
@@ -515,6 +536,10 @@
     width: 55%;
   }
 
+  .servicos-homecare__container {
+    max-width: 75%;
+  }
+
   .equipe-homecare {
     padding: 5rem;
   }
@@ -529,6 +554,10 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+  }
+
+  .sobre-homecare__conteudo .botao {
+    max-width: 82%;
   }
 
   .wave-beneficios {
