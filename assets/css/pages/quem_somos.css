@@ -177,8 +177,12 @@
         max-width: 60%;
     }
 
+    .wave {
+        top: -7.2rem;
+    }
+
     .wave-reverse {
-        bottom: -7rem;
+        bottom: -7.2rem;
     }
 
     .logo-homecare-servir {
