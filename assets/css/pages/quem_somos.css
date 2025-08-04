@@ -103,6 +103,10 @@
         gap: 2rem;
     }
 
+    .wave {
+        top: -1rem;
+    }
+
     .wave-reverse {
         bottom: -1rem;
     }
@@ -131,6 +135,10 @@
 
     .sobre-nos__container {
         max-width: 90%;
+    }
+
+    .wave {
+        top: -1rem;
     }
 
     .wave-reverse {
@@ -248,7 +256,6 @@
 
 /*Ultrawide: 1921px*/
 @media (min-width: 1921px){
-
     .apresentacao__container {
         max-width: 80%;
         margin: 2rem 0;
