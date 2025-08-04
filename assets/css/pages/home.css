@@ -288,7 +288,7 @@
 }
 
 /* Tablet: 767px até 978px */
-@media (min-width: 767px) {
+@media (min-width: 767px) and (orientation: landscape) {
   .tela-inicial {
     height: 45vh;
     background-position: 80% 10%;
