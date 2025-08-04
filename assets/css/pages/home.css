@@ -288,7 +288,7 @@
 }
 
 /* Tablet: 767px até 978px */
-@media (min-width: 767px) and (orientation: landscape) {
+@media (min-width: 767px){
   .tela-inicial {
     height: 45vh;
     background-position: 80% 10%;
@@ -618,4 +618,17 @@
     min-height: 70vh;
     height: auto;
   }
+
+  .sobre-homecare__container {
+    max-width: 80%;
+  }
+
+  .servicos-homecare__container {
+    max-width: 80%;
+  }
+
+  .equipe-homecare__container {
+    max-width: 80%;
+  }
+
 }
