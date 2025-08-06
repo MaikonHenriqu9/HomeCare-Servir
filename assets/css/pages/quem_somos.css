@@ -361,6 +361,10 @@
         max-width: 40%;
     }
 
+    .sobre-nos__container {
+        max-width: 65%;
+    }
+
     .wave {
         top: -6rem;
     }
