@@ -87,6 +87,54 @@
     gap: 2rem;
 }
 
+/*Seção sobre os valores da Empresa*/
+.valores-institucionais {
+    position: relative;
+    background-image: url('../../images/backgrounds/repeating-triangles.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.valores-institucionais__container {
+    margin: 2rem 0;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.pilares-empresa {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.pilares-empresa-imagem {
+    max-width: 100%;
+    height: auto;
+}
+
+.pilares-empresa-imagem img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 11px 12px 12.5px 4px rgba(0, 0, 0, 0.5);
+}
+
+.pilares-empresa-conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
 @media (max-width: 479px){
     .apresentacao {
         margin: 5rem 0;
@@ -201,6 +249,33 @@
     .nossa-causa {
         top: 3.1rem;
     }
+
+    .valores-institucionais {
+        top: 4.063rem;
+    }
+
+    .valores-institucionais__container {
+        max-width: 80%;
+    }
+
+    .pilares-empresa {
+        flex-direction: row;
+        gap: 2rem;
+    }
+
+    .pilares-empresa--inverso {
+        flex-direction: row-reverse;
+    }
+
+    .pilares-empresa-imagem {
+        max-width: 40%;
+    }    
+
+    .pilares-empresa-conteudo {
+        padding: 1rem;
+        gap: 1rem;
+    }
+
 }
 
 /* Tablet grande ou notebook pequeno: 979px até 1199px */
@@ -226,6 +301,10 @@
 
     .nossa-causa {
         top: 4.1rem;
+    }
+
+    .valores-institucionais {
+        top: 5rem;
     }
 }
 
@@ -256,6 +335,18 @@
     .nossa-causa {
         top: 4.3rem;
     }
+
+    .valores-institucionais {
+        top: 6rem;
+    }
+
+    .valores-institucionais__container {
+        gap: 3rem;
+    }
+
+    .pilares-empresa-conteudo {
+        max-width: 50%;
+    }
 }
 
 /*Ultrawide: 1921px*/
@@ -281,4 +372,13 @@
     .nossa-causa {
         top: 8rem;
     }
+
+    .valores-institucionais {
+        top: 10.625rem;
+    }
+
+    .valores-institucionais__container {
+        max-width: 70%;
+    }
+    
 }
