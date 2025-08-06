@@ -380,5 +380,18 @@
     .valores-institucionais__container {
         max-width: 70%;
     }
-    
+}
+
+@media (max-height: 500px) and (orientation: landscape) {
+    .apresentacao__container {
+        max-width: 80%;
+    }
+
+    .sobre-nos__container {
+    	max-width: 80%;
+    }
+
+    .valores-institucionais__container {
+        max-width: 80%;
+    }
 }
