@@ -13,7 +13,56 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 1rem;
+}
+
+/*Seção sobre a HomeCare Servir e os seus serviços*/
+.sobre-servicos {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--cor-primaria);
+}
+
+.sobre-servicos__container {
+    position: relative;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.wave,
+.wave-reverse {
+    /* position: absolute; */
+    position: relative;
+    width: 100%;
+    left: 0;
+}
+
+.wave img {
+    width: 100%;
+}
+
+.wave-reverse {
+    transform: scaleY(-1);
+}
+
+.sobre-servicos--imagem {
+    display: none;
+}
+
+.sobre-servicos--imagem img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.sobre-servicos--conteudo {
+    display: flex;
+    flex-direction: column;
 }
 
 @media (max-width: 479px) {
@@ -22,9 +71,12 @@
     }
 
     .apresentacao-servicos__container {
-        width: 90%;
+        width: 80%;
         margin-top: 1rem;
-        padding: 2rem 0;
+    }
+
+    .sobre-servicos__container {
+        max-width: 80%;
     }
 }
 
@@ -35,9 +87,13 @@
     }
 
     .apresentacao-servicos__container {
-        width: 90%;
+        width: 80%;
         margin-top: 1rem;
         padding: 2rem 0;
+    }
+
+    .sobre-servicos__container {
+        max-width: 80%;
     }
 }
 
@@ -52,6 +108,27 @@
         margin-top: 1rem;
         padding: 2rem 0;
     }
+
+    .apresentacao-servicos__container .titulo {
+        width: 75%;
+    }
+
+    .sobre-servicos__container {
+        max-width: 80%;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 3rem;
+    }
+
+    .sobre-servicos--imagem {
+        display: block;
+        max-width: 50%;
+    }
+
+    .sobre-servicos--conteudo {
+        max-width: 50%;
+        gap: 1rem;
+    }
 }
 
 /* Tablet grande ou notebook pequeno: 979px até 1199px */
@@ -64,6 +141,14 @@
         max-width: 80%;
         margin-top: 2rem;
         padding: 3rem 0;
+    }
+
+    .sobre-servicos--imagem {
+        max-width: 50%;
+    }
+
+    .sobre-servicos--conteudo {
+        max-width: 60%;
     }
 }
 
@@ -78,6 +163,11 @@
         margin-top: 5rem 0;
         padding: 5rem 0;
     }
+
+    .sobre-servicos__container {
+        max-width: 75%;
+    }
+
 }
 
 /*Ultrawide: 1921px*/
@@ -87,10 +177,22 @@
         margin: 2rem 0;
         padding: 5rem 0;
     }
+
+    .apresentacao-servicos__container .titulo {
+        max-width: 55%;
+    }
+
+    .sobre-servicos__container {
+        max-width: 60%;
+    }
 }
 
 @media (max-height: 500px) and (orientation: landscape) { 
     .apresentacao-servicos__container {
+        max-width: 80%;
+    }
+
+    .sobre-servicos__container {
         max-width: 80%;
     }
 }
