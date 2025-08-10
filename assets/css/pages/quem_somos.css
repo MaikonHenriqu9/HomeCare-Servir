@@ -517,7 +517,7 @@
 
 @media (max-height: 500px) and (orientation: landscape) {
     .apresentacao__container {
-        max-width: 80%;
+        max-width: 75%;
     }
 
     .sobre-nos__container {
