@@ -1,16 +1,11 @@
 .botao {
     background-color: var(--cor-botao);
     color: var(--cor-texto-secundario);
-    font-size: clamp(1rem, 2vw, 1.8rem);
+    font-size: clamp(1rem, 1.5vw, 1.5rem);
     font-weight: bold;
     padding: 1rem;
     border-radius: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.botão:hover {
-    background-color: red;
-    transition: .2s all;
 }
