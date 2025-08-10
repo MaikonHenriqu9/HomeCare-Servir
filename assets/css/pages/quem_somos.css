@@ -517,11 +517,15 @@
 
 @media (max-height: 500px) and (orientation: landscape) {
     .apresentacao__container {
-        max-width: 75%;
+        max-width: 80%;
     }
 
     .sobre-nos__container {
     	max-width: 80%;
+    }
+
+    .nossa-causa__container {
+        max-width: 80%;
     }
 
     .valores-institucionais__container {
