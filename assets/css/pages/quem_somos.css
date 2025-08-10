@@ -337,6 +337,7 @@
     }
 
     .cta-quem-somos__container {
+        max-width: 80%;
         flex-direction: row;
         justify-content: space-between;
         gap: 1rem;
@@ -526,4 +527,22 @@
     .valores-institucionais__container {
         max-width: 80%;
     }
+
+    .pilares-empresa {
+        flex-direction: row;
+        gap: 2rem;
+    }
+
+    .pilares-empresa--inverso {
+        flex-direction: row-reverse;
+    }
+
+    .pilares-empresa-imagem {
+        max-width: 40%;
+    }
+
+    .cta-quem-somos__container {
+        max-width: 80%;
+    }
+
 }
