@@ -539,6 +539,7 @@
 
     .pilares-empresa-imagem {
         max-width: 40%;
+        max-height: 40%;
     }
 
     .cta-quem-somos__container {
