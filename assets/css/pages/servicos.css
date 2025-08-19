@@ -379,6 +379,12 @@
         height: 30rem;
         object-position: center -20rem;
     }
+
+    .beneficios-servicos-icones {
+        width: 80%;
+        flex-direction: row;
+        align-items: flex-start;
+    }
 }
 
 @media (max-height: 500px) and (orientation: landscape) { 
