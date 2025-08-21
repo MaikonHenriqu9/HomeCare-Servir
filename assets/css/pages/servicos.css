@@ -491,29 +491,29 @@
         gap: 2rem;
     }
 
-    /* .servicos-prestados__container > .servico-card:last-child {
+    .servicos-prestados__container > .servico-card:last-child {
         grid-column: 1 / -1;   
         justify-self: center;  
         max-width: 50%;
-    } */
+    }
 
     .beneficios-servicos__container {
         max-width: 80%;
         gap: 2rem;
     }
 
-    /* .beneficios-servicos-imagem {
+    .beneficios-servicos-imagem {
         display: block;
         height: 180px;
         object-position: center -4rem;
     }
 
-    /* .beneficios-servicos-icones {
-        width: 100%;
+    .beneficios-servicos-icones {
+        width: 80%;
         flex-direction: row;
         align-items: flex-start;
         gap: 1rem;
-    } */
+    }
 
 
 }
