@@ -417,6 +417,7 @@
 
     .cto-servicos__container {
         margin: 2rem 0;
+        gap: 2rem 0;
     }
 
     .cto-servicos__container .descricao-secundario {
@@ -465,7 +466,7 @@
     }
 
     .cto-servicos__container {
-        gap: 2rem;
+        gap: 2.5rem 0;
     }
 
     .cto-servicos__container .descricao-secundario {
@@ -509,11 +510,10 @@
     }
 
     .beneficios-servicos-icones {
-        width: 80%;
+        width: 100%;
         flex-direction: row;
         align-items: flex-start;
         gap: 1rem;
     }
-
 
 }
