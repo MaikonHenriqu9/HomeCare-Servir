@@ -1,0 +1,86 @@
+/*Seção Inicial da página contatos*/
+.hero-contato {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), transparent), url('../../images/photos/imagem24.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    margin-top: 5.2rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-contato__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 479px) {
+    .hero-contato {
+        background-position: 12% center;
+        padding: 1.5rem;
+        height: 50vh;
+    }
+
+    .hero-contato__container {
+        max-width: 100%;
+    }
+
+}
+
+/* Mobile médio: 480px até 766px */
+@media (min-width: 480px) {
+    .hero-contato {
+        background-position: 12% center;
+        padding: 2rem;
+        height: 40vh;
+    }
+
+}
+
+/* Tablet: 767px até 978px */
+@media (min-width: 767px){
+    .hero-contato {
+        height: 45vh;
+        background-position: 10% center;
+        padding: 5rem 2rem;
+    }
+
+}
+
+/* Tablet grande ou notebook pequeno: 979px até 1199px */
+@media (min-width: 979px){
+    .hero-contato {
+        width: auto;
+        height: 65vh;
+    }
+
+}
+
+/* Desktop: 1200px ou mais */
+@media (min-width: 1200px){
+    .hero-contato {
+        height: 65vh;
+        background-position: -10 10%;
+    }
+
+
+}
+
+/*Ultrawide: 1921px*/
+@media (min-width: 1921px){
+    .hero-contato {
+      height: 80vh;
+      background-position: 0 -15%;
+    }
+}
+
+@media (max-height: 500px) and (orientation: landscape) { 
+    .hero-contato {
+        background-position: 12% center;
+        padding: 2rem;
+        height: 50vh;
+    }
+}
