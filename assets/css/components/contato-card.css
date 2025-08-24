@@ -5,18 +5,22 @@
     align-items: center;
     justify-content: center;
     border-radius: 0.625rem;
-    gap: 1rem;
 }
 
-.meio-comunicacao, .email-contato {
+.meio-comunicacao, .instagram-contato, .email-contato, .telefone-contato {
     color: var(--cor-primaria);
     font-size: clamp(0.9rem, 1vw,1.25rem);
-    white-space: normal;
-    word-wrap: break-word;
+    white-space: normal; 
+    word-break: break-all;
+    overflow-wrap: anywhere; 
 }
 
 .meio-comunicacao {
     font-weight: bold;
+}
+
+.telefone-contato {
+    text-decoration: none;
 }
 
 @media (max-width: 479px) {
@@ -24,55 +28,87 @@
         width: 90%;
         height: 100%;
         padding: 2rem;
+        gap: 1rem;
     }
 
     .contato-card img {
-        width: 30%; 
+        width: 3.125rem; 
+        height: 3.125rem;
     }
 }
 
+/* Mobile médio: 480px até 766px */
 @media (min-width: 480px) {
     .contato-card {
         width: 100%;
         padding: 2rem;
+        gap: 1rem;
     }
 
     .contato-card img {
-        width: 30%; 
+        width: 3.125rem; 
+        height: 3.125rem;
     }
 }
+
+/* Tablet: 767px até 978px */
 @media (min-width: 767px) {
     .contato-card {
-        width: 40%;
-        height: 200px;
-        padding: 1.2rem;
+        /* width: 40%; */
+        width: 18.75rem;
+        /* height: 200px; */
+        height: 12rem;
+        padding: 1rem;
+        gap: 1.2rem;
     }
 
     .contato-card img {
-        width: 50px; 
-    }
-}
-@media (min-width: 979px) {
-    .contato-card {
-        width: 35%;
-        height: 250px;
-        padding: 1.5rem;
+        width: 4.063rem;
+        height: 4.063rem; 
     }
 }
 
+/* Tablet grande ou notebook pequeno: 979px até 1199px */
+@media (min-width: 979px) {
+    .contato-card {
+        /* width: 35%;
+        height: 250px; */
+        width: 18.75rem;
+        /* height: 12rem; */
+        padding: 1.5rem;
+    }
+
+    .contato-card img {
+        width: 4.063rem;
+        height: 4.063rem; 
+    }
+}
+
+/* Desktop: 1200px ou mais */
 @media (min-width: 1200px) {
     .contato-card {
-        width: 35%;
-        height: 250px;
+        width: 18.75rem;
+        /* height: 250px; */
         padding: 1.5rem;
+    }
+
+    .contato-card img {
+        width: 4.063rem;
+        height: 4.063rem; 
     }
 }
 
 /*Ultrawide*/
 @media (min-width: 1921px) {
     .contato-card {
-        max-width: 20%;
-        height: 250px;
-        padding: 1.5rem;
+        width: 22rem;
+        height: 15rem;
+        padding: 2rem;
+        gap: 1rem;
+    }
+
+    .contato-card img {
+        width: 5rem;
+        height: 5rem; 
     }
 }
