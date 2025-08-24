@@ -10,6 +10,7 @@
 @import url('./components/beneficio-item.css');
 @import url('./components/servico-card.css');
 @import url('./components/beneficio-servico.css');
+@import url('./components/contato-card.css');
 
 /*Importa os estilos das páginas*/
 @import url('./pages/home.css');

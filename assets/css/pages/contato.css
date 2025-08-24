@@ -17,6 +17,29 @@
     justify-content: center;
 }
 
+/*Seção sobre meios de contato*/
+.contatos {
+    background-image: url('../../images/backgrounds/repeating-triangles.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.contatos__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contatos-itens {
+    display: flex;
+}
+
 @media (max-width: 479px) {
     .hero-contato {
         background-position: 12% center;
@@ -28,6 +51,17 @@
         max-width: 100%;
     }
 
+    .contatos__container {
+        max-width: 80%;
+        gap: 2rem;
+    }
+
+    .contatos-itens {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+    }
 }
 
 /* Mobile médio: 480px até 766px */
@@ -38,6 +72,17 @@
         height: 40vh;
     }
 
+    .contatos__container {
+        max-width: 80%;
+        gap: 2rem;
+    }
+
+    .contatos-itens {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+    }
 }
 
 /* Tablet: 767px até 978px */
@@ -48,6 +93,19 @@
         padding: 5rem 2rem;
     }
 
+    .contatos__container {
+        width: 95%;
+        gap: 2rem;
+    }
+
+    .contatos-itens {
+        width: 100%;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 1rem;
+        gap: 1rem;
+    }
 }
 
 /* Tablet grande ou notebook pequeno: 979px até 1199px */
@@ -56,6 +114,7 @@
         width: auto;
         height: 65vh;
     }
+
 
 }
 
@@ -81,6 +140,6 @@
     .hero-contato {
         background-position: 12% center;
         padding: 2rem;
-        height: 50vh;
+        height: 70vh;
     }
 }
