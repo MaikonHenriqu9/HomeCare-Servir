@@ -182,6 +182,11 @@
     object-fit: cover;
 }
 
+/*Rodapé da HomeCare*/
+.rodape-quem-somos {
+    position: relative;
+}
+
 @media (max-width: 479px) {
     .apresentacao {
         margin: 5rem 0;
@@ -218,6 +223,14 @@
     .cta-quem-somos__container {
         width: 90%;
         margin-bottom: 1rem;
+    }
+
+    .rodape-quem-somos {
+        margin-top: 2rem; 
+    }
+
+    .rodape__container {
+        width: 80%;
     }
 }
 
@@ -256,6 +269,14 @@
 
     .cta-quem-somos__container {
         width: 90%;
+    }
+
+    .rodape-quem-somos {
+        margin-top: 2rem; 
+    }
+
+    .rodape__container {
+        width: 80%;
     }
 }
 
@@ -356,6 +377,14 @@
         display: block;
         max-width: 40%;
     }
+
+    .rodape-quem-somos {
+        margin-top: 4.2rem; 
+    }
+
+    .rodape__container {
+        width: 80%;
+    }
 }
 
 /* Tablet grande ou notebook pequeno: 979px até 1199px */
@@ -394,6 +423,10 @@
     .cta-quem-somos__container {
         max-width: 75%;
         padding: 4rem 0;
+    }
+
+    .rodape-quem-somos {
+        margin-top: 4rem; 
     }
 }
 
@@ -438,7 +471,7 @@
     }
 
     .cta-quem-somos {
-        top: 7rem;
+        top: 5rem;
     }
 
     .cta-quem-somos__container {
@@ -496,7 +529,7 @@
     }
 
     .cta-quem-somos {
-        top: 9rem;
+        top: 5rem;
     }
 
     .cta-quem-somos__container {
@@ -511,6 +544,10 @@
 
     .cta-quem-somos--imagem {
         max-width: 65%;
+    }
+
+    .rodape-quem-somos {
+        margin-top: 4rem; 
     }
 
 }

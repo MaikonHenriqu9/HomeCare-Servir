@@ -146,6 +146,11 @@
     display: flex;
 }
 
+/*Rodapé da HomeCare*/
+.rodape-servicos {
+    position: relative;
+}
+
 @media (max-width: 479px) {
     .apresentacao-servicos {
         margin: 5rem 0;

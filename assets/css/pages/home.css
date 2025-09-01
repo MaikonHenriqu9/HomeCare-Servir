@@ -1,6 +1,7 @@
 /*Seção Tela Inicial da HomeCare*/
 .tela-inicial {
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.9), transparent), url('../../images/photos/image_hero.webp');
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.9), transparent),
+    url("../../images/photos/image_hero.webp");
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -65,7 +66,11 @@
 
 /*Seção sobre Serviços da HomeCare Servir*/
 .servicos-homecare {
-  background-image: linear-gradient(rgba(220, 220, 220, 0.4), rgba(220, 220, 220, 0.4)), url("../../images/backgrounds/wall--4-light.webp");
+  background-image: linear-gradient(
+      rgba(220, 220, 220, 0.4),
+      rgba(220, 220, 220, 0.4)
+    ),
+    url("../../images/backgrounds/wall--4-light.webp");
   padding: 1rem;
   display: flex;
   justify-content: center;
@@ -95,11 +100,11 @@
   justify-items: center;
 }
 
-.servico-imagem img{
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-  }
+.servico-imagem img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
 
 /*Seção sobre a Equipe HomeCare Servir*/
 .equipe-homecare {
@@ -133,7 +138,6 @@
   border-radius: 10px;
   box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
 }
-
 
 /*Seção sobre Benefícios da HomeCare Servir*/
 .beneficios-homecare {
@@ -207,6 +211,11 @@
   gap: 2rem;
 }
 
+/*Rodapé da HomeCare*/
+.rodape-home {
+  position: relative; 
+}
+
 @media (max-width: 479px) {
   .tela-inicial {
     background-position: 70% 20%;
@@ -216,7 +225,7 @@
     justify-content: center;
     text-align: center;
   }
-  
+
   .tela-inicial__container {
     justify-content: center;
     align-items: center;
@@ -225,7 +234,7 @@
 
   .wave-beneficios {
     top: -1.1rem;
-  } 
+  }
 
   .beneficios {
     margin-bottom: 2rem;
@@ -239,6 +248,13 @@
     top: 1rem;
   }
 
+  .rodape-home {
+   margin-top: 2rem; 
+  }
+
+  .rodape__container {
+    width: 80%;
+  }
 }
 
 /* Mobile médio: 480px até 766px */
@@ -273,7 +289,7 @@
 
   .wave-beneficios {
     top: -1.2rem;
-  } 
+  }
 
   .beneficios-homecare__container {
     padding: 1rem;
@@ -285,10 +301,19 @@
   .cta-homepage__container {
     max-width: 80%;
   }
+
+  .rodape-home {
+    margin-top: 4rem; 
+    padding: 2rem;
+  }
+
+  .rodape__container {
+    width: 80%;
+  }
 }
 
 /* Tablet: 767px até 978px */
-@media (min-width: 767px){
+@media (min-width: 767px) {
   .tela-inicial {
     height: 45vh;
     background-position: 80% 10%;
@@ -344,7 +369,7 @@
 
   .wave-beneficios {
     top: -2rem;
-  } 
+  }
 
   .cta-homepage {
     top: 3.3rem;
@@ -353,7 +378,6 @@
   .cta-homepage__container {
     max-width: 80%;
   }
-
 }
 
 /* Tablet grande ou notebook pequeno: 979px até 1199px */
@@ -425,12 +449,11 @@
 
   .wave-beneficios {
     top: -3rem;
-  } 
+  }
 
   .cta-homepage {
     top: 3.5rem;
   }
-
 }
 
 /* Desktop: 1200px ou mais */
@@ -531,7 +554,6 @@
   .cta-informacoes .botao {
     max-width: 60%;
   }
-
 }
 
 /*Ultrawide: 1921px*/
@@ -583,7 +605,7 @@
   .beneficios-homecare__container {
     max-width: 70%;
     gap: 4rem;
-  } 
+  }
 
   .cta-homepage {
     background-position: 80% 10%;
@@ -610,7 +632,6 @@
   .cta-informacoes .botao {
     max-width: 55%;
   }
-
 }
 
 @media (max-height: 500px) and (orientation: landscape) {
@@ -630,5 +651,4 @@
   .equipe-homecare__container {
     max-width: 80%;
   }
-
 }
