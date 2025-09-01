@@ -50,3 +50,23 @@ table {
 strong {
 	font-weight: bold;
 }
+
+button {
+    border: none;
+	cursor: pointer;
+}
+
+label, input, textarea {
+	border: none;
+	border-radius: 0.4rem;
+	padding: 0.5rem;
+}
+
+input, textarea {
+	display: block;
+	outline: none;
+}
+
+textarea {
+	resize: none; 
+}
