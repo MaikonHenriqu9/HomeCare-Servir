@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
     <title>HomeCare Servir</title>
     <link rel="apple-touch-icon" href="../assets/css/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="../assets/css/favicon/favicon-32x32.png" type="image-">
@@ -85,6 +87,36 @@
         </div>
     </section>
 
-    <script src="../assets/js/menu.js"></script>
+    <section class="email">
+        <div class="email__container">
+            <h2 class="titulo">Fale Conosco</h2>
+            <p class="descricao">Estamos prontos para ouvir você. <br>Preencha o formulário e retornaremos o mais rápido possível</p>
+
+            <div class="formulario__container">
+                <img src="../assets/images/photos/imagem25.jpg" class="email-foto" alt="">
+    
+                <form method="POST" class="formulario" id="formulario">
+                    <label for="nome">Nome</label>
+                    <input type="text" name="name" id="name" required>
+    
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" required>
+    
+                    <label for="assunto">Assunto</label>
+                    <input type="text" name="subject" id="subject" required>
+    
+                    <label for="mensagem">Mensagem</label>
+                    <textarea name="message" id="message" required></textarea>
+                    <br>
+
+                    <button type="submit" class="botao" id="botaoEnviar">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="../assets/js/script.js"></script>
+    <script src="../assets/js/formulario.js"></script>
 </body>
 </html>
