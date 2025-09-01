@@ -41,6 +41,11 @@ p, label {
     line-height: 1.2;
 }
 
+input, textarea {
+    font-size: clamp(1rem, 1.5vw, 1rem);
+    font-family: "Open Sans", sans-serif;
+}
+
 .titulo-destaque {
     color: var(--cor-titulo-secundario);
     font-size: clamp(1.25rem, 3vw, 3.75rem);
