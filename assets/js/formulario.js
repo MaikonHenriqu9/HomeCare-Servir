@@ -1,4 +1,5 @@
-emailjs.init("MaX7dJ7LMuI5noaTD");
+//emailjs.init("MaX7dJ7LMuI5noaTD");
+emailjs.init("nnZwov4pq7u6u6QaA");
 
 document.getElementById("formulario").addEventListener("submit", function (event) {
     event.preventDefault();
@@ -10,8 +11,11 @@ document.getElementById("formulario").addEventListener("submit", function (event
       message: document.getElementById("message").value,
     };
 
-    const serviceId = "service_m5wes85"; // colocar o id do Douglas (service_rt4yq5f) <- colocar depois que aceitar o código
-    const templateId = "template_d82yqzi"; // colocar o template do Douglas (criar no site)
+    //const serviceId = "service_m5wes85"; // colocar o id do Douglas (service_rt4yq5f) <- colocar depois que aceitar o código
+    //const templateId = "template_d82yqzi"; // colocar o template do Douglas (criar no site)
+
+    const serviceId = "service_w9lye9u";
+    const templateId = "template_bk9i6cl";
 
     const botaoEnviar = document.getElementById("botaoEnviar");
     botaoEnviar.textContent = "Enviando ...";
